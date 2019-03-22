@@ -1,7 +1,6 @@
-Heading
-=======
-
-## Sub-heading
+# Heading
+---
+#### Sub-heading
 
 Paragraphs are separated
 by a blank line.
@@ -14,7 +13,7 @@ Text attributes _italic_,
 
 Horizontal rule:
 
----
+___
 
 Bullet list:
 
@@ -30,6 +29,14 @@ Numbered list:
 
 A [link](http://example.com).
 
+
 > Markdown uses email-style > characters for blockquoting.
 
 Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
+
+
+```python
+x = 200
+while x < 20:
+  x++
+```
